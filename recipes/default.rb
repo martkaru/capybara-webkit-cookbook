@@ -17,8 +17,6 @@
 # limitations under the License.
 #
 
-%w[ libqt4-dev xvfb ].each do |pkg|
+%w[ libqt4-dev libqtwebkit-dev xvfb ].each do |pkg|
   package pkg
 end
-
-gem_package 'capybara-webkit'
